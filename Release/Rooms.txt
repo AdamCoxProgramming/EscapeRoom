@@ -1,0 +1,202 @@
+<world>
+
+   <room>
+       <name>Office</name>
+       <connections>
+        <connection>Kitchen</connection>
+       </connections>
+       <description>Its a fancy office which appears to have been trashed, the extravgent furnishings imply a lot of cash was wasted on this place</description>        
+       <object>
+          <name>Phone</name>
+          <description>A mobile which you cant turn on because it's run out of battery</description>  
+          <action>
+            <name>lookat</name>
+            <target>Phone</target>
+          </action>
+           <action>
+                  <name>pick</name>
+                   <target>Phone</target>
+            </action>
+            <action>
+                  <name>plug</name>
+                   <target>Phone</target>
+            </action>  
+       </object> 
+
+        <object>
+          <name>Bill</name>
+          <description>A phone bill, who evers office this is uses there phone alot</description> 
+          <action>
+            <name>lookat</name>
+            <target>Bill</target>
+          </action> 
+       </object>  
+
+       <object>
+          <name>Door</name>
+          <description>The door is locked and is controlled by the scanner</description>   
+          <action>
+            <name>lookat</name>
+            <target>Door</target>
+          </action>         
+       </object>  
+
+       <object>
+        <name>Scanner</name>
+        <description>This scanner controlls the locked door by scanning QR codes</description>
+        <action>
+          <name>scan</name>
+          <target>Scanner</target>
+        </action>
+         <action>
+          <name>lookat</name>
+          <target>Scanner</target>
+        </action>
+       </object>
+
+        <action>
+            <name>enter</name>
+             <target>Office</target>
+         </action>
+   </room>
+
+    <room>
+   <name>Kitchen</name>
+    <connections>
+    <connection>Office</connection>
+   </connections>
+   <description>Its a spacious kitchen</description>     
+    <object>
+      <name>Charger</name>
+      <description>A phone charger</description>      
+   </object>  
+    <action>
+        <name>enter</name>
+         <target>Kitchen</target>
+     </action>    
+   </room>
+
+     <room>
+   <name>corridor</name>
+    <connections>
+    <connection>Office</connection>
+    <connection>bathroom</connection>
+    <connection>porch</connection>
+   </connections>
+   <description>Its a long corridor, with large photos of myself looking smug hagning on the walls</description>    
+    <action>
+        <name>enter</name>
+         <target>corridor</target>
+     </action>
+   </room>
+
+    <room>
+   <name>bathroom</name>
+    <connections>
+    <connection>corridor</connection>
+   </connections>
+   <description>Its a clean bathroom but there are pills split all over the floor</description>         
+    <action>
+        <name>enter</name>
+         <target>bathroom</target>
+     </action>
+      <object>
+      <name>pills</name>
+      <description>looking at the pills you faintly remember you where trying to take them to stay awake</description>
+       <action>
+          <name>lookat</name>
+          <target>pills</target>
+        </action>          
+   </object> 
+  <object>
+      <name>Mirror</name>
+      <description>looking at the mirror you almost dont recognize your reflection, there is a huge scar on the side of your back</description>
+       <action>
+          <name>lookat</name>
+          <target>Mirror</target>
+        </action>         
+   </object> 
+   </room>
+
+  <room>
+
+     <name>porch</name>
+      <connections>
+      <connection>corridor</connection>
+     </connections>
+     <description>Its messy porch with a lot of letters on the floor</description>         
+      <action>
+          <name>enter</name>
+           <target>porch</target>
+       </action>
+
+        <object>
+        <name>mat</name>
+          <description> A mat which looks like there is something under it
+          </description>
+         <action>
+            <name>lookat</name>
+            <target>mat</target>
+          </action>   
+           <action>
+            <name>pick</name>
+            <target>mat</target>
+          </action>       
+        </object>
+
+       <object>
+        <name>Letters</name>
+          <description>The letters on the floor are written in red, they say something is owed and they will take what they deserve one way or another, there is a picture of a voodo doll at the bottom of the letters, each letter has a number counting down, the last letter got to zero. 
+          </description>
+         <action>
+            <name>lookat</name>
+            <target>Letters</target>
+          </action>         
+        </object>
+
+   </room>
+
+     <room>
+   <name>stairs</name>
+    <connections>
+    <connection>basement</connection>
+   </connections>
+   <description>It's a dirty stairway with a dim flickering light at the end</description>    
+    <action>
+        <name>enter</name>
+         <target>stairs</target>
+     </action>
+   </room>
+
+     <room>
+   <name>basement</name>
+    <connections>
+    <connection>Heaven</connection>
+    <connection>Hell</connection>
+   </connections>
+   <description>You turn on the lights because you can't see properly in this candlelight, only to find a gang robed figures in front of you, they sacrifice you.</description>    
+    <action>
+        <name>enter</name>
+         <target>basement</target>
+     </action>
+   </room>
+
+ <room>
+   <name>Heaven</name>   
+   <description>It's a bit disapointing</description>    
+    <action>
+        <name>enter</name>
+         <target>Heaven</target>
+     </action>
+   </room>
+
+    <room>
+   <name>Hell</name>   
+   <description>You are overwhelmed with buyer's remorse</description>    
+    <action>
+        <name>enter</name>
+         <target>Hell</target>
+     </action>
+   </room>
+
+</world>

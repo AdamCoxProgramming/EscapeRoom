@@ -1,0 +1,85 @@
+<world>
+
+   <room>
+
+       <name>Office</name>
+
+       <connections>
+
+        <connection>Kitchen</connection>
+
+       </connections>
+
+       <description>Its a fancy office which appears to have been trashed</description> 
+       
+       <object>
+          <name>Phone</name>
+          <description>A mobile which you cant turn on because it's run out of battery</description>  
+          <action>
+            <name>lookat</name>
+            <target>Phone</target>
+          </action>
+           <action>
+                  <name>pick</name>
+                   <target>Phone</target>
+            </action>
+            <action>
+                  <name>plug</name>
+                   <target>Phone</target>
+            </action>  
+       </object> 
+
+        <object>
+          <name>Bill</name>
+          <description>A phone bill, who evers office this is uses there phone alot</description> 
+          <action>
+            <name>lookat</name>
+            <target>Bill</target>
+          </action> 
+       </object>  
+
+       <object>
+          <name>Door</name>
+          <description>The door is locked and is controlled by the scanner</description>   
+          <action>
+            <name>lookat</name>
+            <target>Door</target>
+          </action>         
+       </object>  
+
+       <object>
+        <name>Scanner</name>
+        <description>This scanner controlls the locked door by scanning QR codes</description>
+        <action>
+          <name>scan</name>
+          <target>Scanner</target>
+        </action>
+         <action>
+          <name>lookat</name>
+          <target>Scanner</target>
+        </action>
+       </object>
+
+        <action>
+            <name>enter</name>
+             <target>Office</target>
+         </action>
+   </room>
+
+    <room>
+   <name>Kitchen</name>
+    <connections>
+    <connection>Office</connection>
+   </connections>
+   <description>Its a spacious store room</description>     
+    <object>
+      <name>Charger</name>
+      <description>A phone charger</description>      
+   </object>  
+    <action>
+        <name>enter</name>
+         <target>Kitchen</target>
+     </action>    
+   </room>
+
+</world>

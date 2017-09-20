@@ -1,0 +1,18 @@
+﻿  main.cpp
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\world.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\object.cpp(8): warning C4099: 'Object': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\object.cpp(8): note: see declaration of 'Object'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\room.cpp(7): warning C4099: 'Action': type name first seen using 'struct' now seen using 'class'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\action.cpp(11): note: see declaration of 'Action'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\world.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\player.cpp(7): warning C4099: 'Player': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\player.cpp(6): note: see declaration of 'Player'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\actionmanager.cpp(379): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\filereader.cpp(263): warning C4715: 'XmlParser::CreateAction': not all control paths return a value
+  TextGame.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\EscapeRoom\Debug\TextGame.exe
+  TextGame.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\EscapeRoom\Debug\TextGame.pdb (Full PDB)

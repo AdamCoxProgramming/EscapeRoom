@@ -1,0 +1,41 @@
+﻿  Action.cpp
+  ActionManager.cpp
+ActionManager.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+ActionManager.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+ActionManager.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\World.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Object.cpp(8): warning C4099: 'Object': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Object.cpp(8): note: see declaration of 'Object'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Room.cpp(7): warning C4099: 'Action': type name first seen using 'struct' now seen using 'class'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Action.cpp(11): note: see declaration of 'Action'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\World.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Player.cpp(7): warning C4099: 'Player': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Player.cpp(6): note: see declaration of 'Player'
+ActionManager.cpp(36): warning C4018: '<': signed/unsigned mismatch
+ActionManager.cpp(70): warning C4018: '<': signed/unsigned mismatch
+ActionManager.cpp(379): warning C4018: '<': signed/unsigned mismatch
+  Object.cpp
+Object.cpp(8): warning C4099: 'Object': type name first seen using 'class' now seen using 'struct'
+  Object.cpp(8): note: see declaration of 'Object'
+  main.cpp
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\World.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Object.cpp(8): warning C4099: 'Object': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Object.cpp(8): note: see declaration of 'Object'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Room.cpp(7): warning C4099: 'Action': type name first seen using 'struct' now seen using 'class'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Action.cpp(11): note: see declaration of 'Action'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\World.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\Player.cpp(7): warning C4099: 'Player': type name first seen using 'class' now seen using 'struct'
+  c:\users\adam\documents\visual studio 2015\projects\escaperoom\Player.cpp(6): note: see declaration of 'Player'
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\adam\documents\visual studio 2015\projects\escaperoom\ActionManager.cpp(379): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  221 of 2262 functions ( 9.8%) were compiled, the rest were copied from previous compilation.
+    207 functions were new in current compilation
+    177 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TextGame.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\EscapeRoom\Release\TextGame.exe
+  TextGame.vcxproj -> C:\Users\Adam\Documents\Visual Studio 2015\Projects\EscapeRoom\Release\TextGame.pdb (Full PDB)

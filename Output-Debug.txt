@@ -1,0 +1,13 @@
+﻿'TextGame.exe' (Win32): Loaded 'C:\Users\Adam\Documents\Visual Studio 2015\Projects\TextGame\Debug\TextGame.exe'. Symbols loaded.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\kernel32.dll'
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+'TextGame.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. Cannot find or open the PDB file.
+The thread 0x2ea0 has exited with code 0 (0x0).
+The thread 0x5950 has exited with code 0 (0x0).
+The thread 0x1b2c has exited with code 0 (0x0).
+The program '[23172] TextGame.exe' has exited with code 0 (0x0).
